@@ -11,6 +11,8 @@
     color: white;
     text-decoration: none;
     border: 10px black;
+    animation: fade;
+    animation-duration: 1.5s;
  
  
  }
@@ -26,6 +28,8 @@
     text-align: center;
     background-color: hsl(0, 0%, 5%, 0.5);
     width: 1520px;
+    animation: fade;
+    animation-duration: 1.5s;
  
  }
  
@@ -41,6 +45,8 @@
     color: white;
     text-decoration: none;
     border: 5px black;
+    animation: fade;
+    animation-duration: 1.5s;
  }
  
  .click a:hover{
@@ -63,6 +69,8 @@ body{
     background-image:url(https://i.ytimg.com/vi/WQjpiLBIkuE/maxresdefault.jpg);
     background-size: 100%;
     
+    animation: fade;
+    animation-duration: 1.5s;
 
 }
 
@@ -70,6 +78,8 @@ h1{
     font-size: 3.5rem;
     color: hsl(0, 0%, 20%);
 
+    animation: fade;
+    animation-duration: 1.5s;
 }
 
 h1:hover{
@@ -80,6 +90,8 @@ h1:hover{
 
 .choises{
     margin-bottom: 30px;
+    animation: fade;
+    animation-duration: 1.5s;
 }
 
 .choises button{
@@ -92,6 +104,8 @@ h1:hover{
     border: none;
 
     cursor: pointer;
+    animation: fade;
+    animation-duration: 1.5s;
 
 }
 
@@ -109,12 +123,17 @@ h1:hover{
 
 #playerDisplay, #computerDisplay{
     font-size: 2.5rem;
+    animation: fade;
+    animation-duration: 1.5s;
+
 
 }
 
 #resultDisplay{
     font-size: 5rem;
     margin: 30px 0;
+    animation: fade;
+    animation-duration: 1.5s;
 }
 
 .greenText, #playerScoreDisplay{
@@ -125,8 +144,16 @@ h1:hover{
 }
 .orangeText{
     color: hsl(44, 100%, 50%);
+
 }
 
 .scoreDisplay{
     font-size: 2rem;
+    animation: fade;
+    animation-duration: 1.5s;
 }
+
+@keyframes fade {
+    from {opacity: .5;}
+    to {opacity: 1;}
+ }
