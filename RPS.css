@@ -156,38 +156,38 @@ h1:hover{
 @keyframes fade {
     from {opacity: .5;}
     to {opacity: 1;}
- }
+}
 
- ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-  }
+}
   
-  li {
+li {
     float: left;
     border-right:1px solid #bbb;
-  }
-  
-  li:last-child {
+}
+
+li:last-child {
     border-right: none;
-  }
-  
-  li a {
+}
+
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
   
-  li a:hover:not(.active) {
+li a:hover:not(.active) {
     background-color: hsl(0, 0%, 5%, 0.6)
-  }
+}
   
-  .active {
+.active {
     background-color: #04AA6D;
-  }
+}
   
