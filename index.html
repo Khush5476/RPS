@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewprot" content="width=device-width, initial-scale=1">
+    <meta http-equiv="viewport" content="IE=edge">
+    <title>Rock Paper Scissors</title> 
+    <link rel="stylesheet" href="RPS.css">
+<head>
+<body>
+
+
+    <nav class="click">
+        <ul>
+            <li><a href="https://khush5476.github.io/Calculator/">Calculator</a></li>
+            <li><a href="https://khush5476.github.io/Home/">Home</a></li>
+            <li><a href="https://khush5476.github.io/Keyboard/">Keyboard</a></li>
+            <li><a href="https://khush5476.github.io/Stopwatch/">Stopwatch</a></li>
+            <li><a href="https://khush5476.github.io/TicTacToe/">TicTacToe</a></li>
+            <li><a href="https://khush5476.github.io/RPS/">RPS</a></li>
+        </ul>
+    </nav>
+
+    
+    <h1>Rock - Paper - Scissors</h1>
+
+    <div class="choises">
+
+        <button onclick="playGame('ROCK')">👊</button>
+        <button onclick="playGame('PAPER')">✋</button>
+        <button onclick="playGame('SCISSORS')">✌️</button>
+
+    </div>
+
+    <div id="playerDisplay">PLAYER: </div>
+    <div id="computerDisplay">COMPUTER: </div>
+    <div id="resultDisplay"></div>
+
+    <div class="scoreDisplay">Player Score: 
+        <span id="playerScoreDisplay">0</span>
+    </div>
+    <div class="scoreDisplay">Computer Score: 
+        <span id="computerScoreDisplay">0</span>
+    </div>
+
+
+    <script src="RPS.js"></script>
+</body>
+</head>

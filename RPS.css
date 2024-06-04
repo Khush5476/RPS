@@ -1,0 +1,132 @@
+
+#click{
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    animation: fade;
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    border: 10px black;
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ .click ul{
+    list-style-type: none;
+    border: 5px black;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    text-align: center;
+    background-color: hsl(0, 0%, 5%, 0.5);
+    width: 1520px;
+ 
+ }
+ 
+ .click a{
+ 
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    animation: fade;
+    animation-duration: 1.5s;
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    border: 5px black;
+ }
+ 
+ .click a:hover{
+    text-shadow: 0 1px 5px white;
+ 
+ }
+ .click a:hover{
+    text-shadow: 0 2px 20px white;
+ 
+ }
+
+
+
+body{
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:url(https://i.ytimg.com/vi/WQjpiLBIkuE/maxresdefault.jpg);
+    background-size: 100%;
+    
+
+}
+
+h1{
+    font-size: 3.5rem;
+    color: hsl(0, 0%, 20%);
+
+}
+
+h1:hover{
+    font-size: 3.55rem;
+    color: hsl(0, 0%, 15%);
+    
+}
+
+.choises{
+    margin-bottom: 30px;
+}
+
+.choises button{
+    font-size: 7.5rem;
+    min-width: 100px;
+    margin: 0 10px;
+    border-radius: 300px;
+    min-height: 100px;
+    background-color: hsl(0, 0%, 15%);
+    border: none;
+
+    cursor: pointer;
+
+}
+
+.choises button:hover{
+    background-color: hsl(0, 0%, 25%);
+    box-shadow: 0 3px 15px;
+
+}
+
+.choises button:active{
+    background-color: hsl(0, 0%, 35%);
+    box-shadow: 0 3px 20px;
+
+}
+
+#playerDisplay, #computerDisplay{
+    font-size: 2.5rem;
+
+}
+
+#resultDisplay{
+    font-size: 5rem;
+    margin: 30px 0;
+}
+
+.greenText, #playerScoreDisplay{
+    color: hsl(130, 84%, 54%);
+}
+.redText, #computerScoreDisplay{
+    color: hsl(0, 84%, 60%);
+}
+.orangeText{
+    color: hsl(44, 100%, 50%);
+}
+
+.scoreDisplay{
+    font-size: 2rem;
+}
